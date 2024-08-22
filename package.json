@@ -1,0 +1,16 @@
+{
+  "name": "magazine",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.2",
+    "live-server": "^1.2.2"
+  }
+}

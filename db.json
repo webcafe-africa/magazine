@@ -1,0 +1,64 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "The Rise of AI in 2024",
+      "image": "https://example.com/images/ai-rise.jpg",
+      "description": "Explore how AI is transforming industries in 2024."
+    },
+    {
+      "id": "2",
+      "title": "Sustainable Fashion Trends",
+      "image": "https://example.com/images/sustainable-fashion.jpg",
+      "description": "Discover the latest sustainable fashion trends."
+    },
+    {
+      "id": "3",
+      "title": "Top 10 Travel Destinations",
+      "image": "https://example.com/images/travel-destinations.jpg",
+      "description": "A guide to the top 10 travel destinations this year."
+    },
+    {
+      "id": "4",
+      "title": "Healthy Eating Habits",
+      "image": "https://example.com/images/healthy-eating.jpg",
+      "description": "Tips for maintaining healthy eating habits."
+    },
+    {
+      "id": "5",
+      "title": "Advances in Renewable Energy",
+      "image": "https://example.com/images/renewable-energy.jpg",
+      "description": "Learn about the latest advances in renewable energy."
+    },
+    {
+      "id": "6",
+      "title": "Innovations in Smart Home Technology",
+      "image": "https://example.com/images/smart-home.jpg",
+      "description": "How smart home technology is evolving in 2024."
+    },
+    {
+      "id": "7",
+      "title": "Mental Health Solutions",
+      "image": "https://example.com/images/mental-health.jpg",
+      "description": "The importance of mental health awareness in today's world."
+    },
+    {
+      "id": "8",
+      "title": "Blockchain Beyond Cryptocurrency",
+      "image": "https://example.com/images/blockchain.jpg",
+      "description": "Explore how blockchain is being used beyond cryptocurrency."
+    },
+    {
+      "id": "9",
+      "title": "Future of Electric Vehicles",
+      "image": "https://example.com/images/electric-vehicles.jpg",
+      "description": "What the future holds for electric vehicles."
+    },
+    {
+      "id": "10",
+      "title": "The Impact of Social Media",
+      "image": "https://example.com/images/social-media.jpg",
+      "description": "Understanding the impact of social media on society."
+    }
+  ]
+}
