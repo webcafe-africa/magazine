@@ -13,6 +13,7 @@ articles.map(function(article){
     const articleImage = document.createElement('img')
     const articleTitle = document.createElement('a')
     const articleDescription = document.createElement('p')
+    const articleDeleteButton = document.createElement('button')
 
     articleContainer.id = article.id
     articleContainer.classList.add('articleContainer')
@@ -20,12 +21,16 @@ articles.map(function(article){
     articleTitle.innerHTML = article.title
     articleTitle.classList.add('articleTitle')
     articleDescription.innerHTML = article.description
+    articleDeleteButton.innerHTML = 'Delete'
+    articleDeleteButton.classList.add('articleDeleteButton')
 
     articleTitle.addEventListener('click', () => displayArticle(article))
+    articleDeleteButton.addEventListener('click', () => deleteArticle(article))
 
     articleContainer.appendChild(articleImage)
     articleContainer.appendChild(articleTitle)
     articleContainer.appendChild(articleDescription)
+    articleContainer.appendChild(articleDeleteButton)
 
     articlesContainer.appendChild(articleContainer)
 
@@ -65,4 +70,13 @@ articleForm.addEventListener('submit', (e) => {
 
 
 })
+
+function deleteArticle(article){
+  console.log(`http://localhost:3000/articles/${article.id}`)
+  fetch(`http://localhost:3000/articles/${article.id}`, {
+    method: 'DELETE'
+  })
+  .then(r => r.json())
+  .then(d => console.log(d))
+}
 

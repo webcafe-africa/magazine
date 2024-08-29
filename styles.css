@@ -48,7 +48,7 @@
 .articleTitle{
   font-size: 1.5em;
   font-weight: bold;
-  color: red;
+  color: blue;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -63,6 +63,13 @@
   margin-top: 10px;
   margin-left: 10px;
   margin-bottom: 10px;
+}
+
+.articleDeleteButton {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 form {

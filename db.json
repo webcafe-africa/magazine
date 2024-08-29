@@ -59,24 +59,6 @@
       "title": "The Impact of Social Media",
       "image": "https://example.com/images/social-media.jpg",
       "description": "Understanding the impact of social media on society."
-    },
-    {
-      "id": "b001",
-      "title": "test title",
-      "image": "testimage",
-      "description": "testimage"
-    },
-    {
-      "id": "39e4",
-      "title": "test number 2",
-      "image": "testimage2",
-      "description": "testimage2"
-    },
-    {
-      "id": "d5f0",
-      "title": "test number three",
-      "image": "testimage3",
-      "description": "test description3"
     }
   ]
 }
