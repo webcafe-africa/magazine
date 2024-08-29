@@ -3,10 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="/styles.css" type="stylesheet" />
+  <link href="/styles.css" rel="stylesheet" />
   <title>Magazine</title>
 </head>
 <body>
+  <button id="addArticleButton" onclick="document.getElementById('articleForm').classList.toggle('hidden');document.getElementById('articlesContainer').classList.toggle('hidden');"> Add Article </button>
+
+  <form id="articleForm" class="hidden" style="margin-bottom: 20px;">
+    <label>Title</label>
+    <input name="title" id="title" required />
+
+    <label>Image</label>
+    <input name="image" id="image" required />
+
+    <label>Description</label>
+    <textarea id="description" name="description" required></textarea>
+
+    <button type="submit">submit</button>
+  </form>
+
   <div id="articlesContainer"></div>
   <script type="module" src="script.js"></script>
 </body>

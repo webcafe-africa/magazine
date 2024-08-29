@@ -1,0 +1,72 @@
+/* Container for all articles */
+
+#articlesContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Individual article container */
+#articlesContainer div {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#articlesContainer div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Article image */
+#articlesContainer img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Article title */
+#articlesContainer h3 {
+  font-size: 1.5em;
+  margin: 15px 20px 10px;
+  color: #333;
+}
+
+/* Article description */
+#articlesContainer p {
+  font-size: 1em;
+  margin: 0 20px 20px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.articleTitle{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hidden{
+  display: none;
+}
+
+#addArticleButton {
+  padding: 20px 40px;
+  text-align: right;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
